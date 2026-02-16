@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechFlow",
+    "location": "Remote",
+    "type": "Full-time",
+    "posted": "2 days ago"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Designer",
+    "company": "Creative Studio",
+    "location": "New York",
+    "type": "Contract",
+    "posted": "5 days ago"
+  },
+  {
+    "id": 3,
+    "title": "Backend Engineer",
+    "company": "DataCorp",
+    "location": "San Francisco",
+    "type": "Full-time",
+    "posted": "1 week ago"
+  }
+]

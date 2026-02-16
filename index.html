@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">JobFindr</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="post-job.html">Post a Job</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Open menu">☰</button>
+    </nav>
+
+    <header class="hero">
+        <h1>Find Your Dream Job</h1>
+        <div class="filter-container">
+            <input type="text" id="filter-role" placeholder="Search by role or company...">
+            <select id="filter-type">
+                <option value="All">All Types</option>
+                <option value="Full-time">Full-time</option>
+                <option value="Contract">Contract</option>
+                <option value="Part-time">Part-time</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="job-container" class="job-grid"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
